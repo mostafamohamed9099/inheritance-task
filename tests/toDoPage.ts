@@ -18,6 +18,7 @@ export class toDoPage extends BasePage{
      const todoInput = this.Page.getByPlaceholder("What needs to be done?");
      await todoInput.fill("mazen mohamed");
      await todoInput.press("Enter");
+     
     
 
      }
