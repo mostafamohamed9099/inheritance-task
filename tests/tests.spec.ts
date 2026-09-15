@@ -2,10 +2,8 @@ import { expect , test } from "@playwright/test";
 import { LoginScreen } from "./LoginScreen";
 
 test.use({
-    launchOptions: { slowMo : 1200
-
-    },
-})
+    launchOptions: { slowMo: 1200 },
+});
 
 
 test("Login with valid input value", async ({page}) =>{
